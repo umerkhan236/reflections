@@ -32,3 +32,5 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     I would like to explore how git actually integrates with github and makes it easier to track all versions separately in commit form in a live scenario. Right now I would like to use this wonderful tool to see how you can add commit.
+	
+	*Just added new line for commit testing
