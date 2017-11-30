@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	.git file is created inside that specific directory. Actually this is required to convert a simple directory into Git repository so we can execute all git commands in it. Otherwise simple directories cannot be treated as git repositories.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area if defferent from repository because commits actually operates on staging area. When commits are applied, they actually become part of repository. 
+	Regarding working directory - It's your current directory in which there may be files present that are not still added to the staging area to be commited.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
