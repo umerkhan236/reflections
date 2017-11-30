@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It is infact a very helpful approach to use these type of techniques for debugging. Although there are softwares that usually perform similar type of comparison between files but I think using command line is the right approach as it's helped me a lot in learing git and github basics. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I have an easy access to the entire history of a file I can compare or use any previous file when there is a need to do so. Also it's a very systematic way to keep all your file changes spearately as a record.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manually commit: I think this gives us the flexibility to add commit when there is a logical change in file (change we think that should be commit). 
+    Cons of manually commit: I think there is one problem with it; what if we forget about adding any commit during writing a code? This thing normally happens when you are too much concentrated in solving or writing any algorithm and you just keep writing code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git actually takes the snapshot of all files at specific time when commit commnad is executed. So if you want to execute your code at specified commit then git checkout can be used to achieve this. While other services like Google Docs do keep different file versions spearately but all in separate files. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By using git log - we can view the history of all commits in descending order. Each commit has a unique id. Then we can use git diff command to view differneces between any two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Really surprised to see this feature that you can run your code at any check point (commit) you want during development to make sure that all things are on the right path. Really helpful to track bugs. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to explore how git actually integrates with github and makes it easier to track all versions separately in commit form in a live scenario. Right now I would like to use this wonderful tool to see how you can add commit.
