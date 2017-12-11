@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	.git file is created inside that specific directory. Actually this is required to convert a simple directory into Git repository so we can execute all git commands in it. Otherwise simple directories cannot be treated as git repositories.
+	.git file is created inside that specific directory when we initialize a repository. Actually this is required to convert a simple directory into Git repository so we can execute all git commands in it. Otherwise simple directories cannot be treated as git repositories.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -11,13 +11,31 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Before adding commit - We can use git diff command to check what changes we have made to the files we are working on. Then we can add those files to the 
+	staging area to add commit that actually represents a logical change and dicard other changes in other files.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	We can use branches in a situation where we want to make changes to the existing code but also want to preserve our actual code in the previous state.
+	e.g. We added a new feature but we are not sure about it's performance so would we want to make two branches to keep the code separately. One will be
+	the master branch that will represent our application before modifications and second one will be the updated application with enhanced feature.
+
 How do the diagrams help you visualize the branch structure?
+
+	As we know that we have to commit our changes, it's important to have full understanding of branch structure specially reachability so that we can commit correctly at any 
+	time. Otherwise if we will not consider reachability of commit, our commit will be lost when we will checkout any other branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Let's say two developers are working on two different features. Now at some time they want to combine their code. For this we use merge. So merging 
+	two branches will combine the code of both on same branch that will be checkout at that time. Regarding diagram - It's easy to understand the flow
+	of merging by presenting it in a diagram so that we can actullay understand at which point our merging actually takes place.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Actually it depends on the nature of merging. Now if we are sure that the two codes we are merging have different features and there is no conflict
+	between any of the two, then automatic merging is fine. But if there are conflicts, then we will have to manually fix all conflicts and then merge again.
+	
